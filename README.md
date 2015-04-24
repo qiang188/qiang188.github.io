@@ -1,1 +1,1 @@
-www.qq188.info
+http://www.qq188.info
