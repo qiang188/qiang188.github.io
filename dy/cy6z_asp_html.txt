@@ -69,13 +69,13 @@ newmoban = replace(newmoban,"{content}",content)
 
     
 if i<>0 then
-shang = "ä¸Šä¸€ç¯‡ï¼š<a href="&filename2&(i-1)&".html>"&guanjianzi(i-1)&"</a>"    
+shang = "ÉÏÒ»Æª£º<a href="&filename2&(i-1)&".html>"&guanjianzi(i-1)&"</a>"    
 else
 shang = ""
 end if
   
 if num>i+1 then
-xia = "ä¸‹ä¸€ç¯‡ï¼š<a href="&filename2&(i+1)&".html>"&guanjianzi(i+1)&"</a>"  
+xia = "ÏÂÒ»Æª£º<a href="&filename2&(i+1)&".html>"&guanjianzi(i+1)&"</a>"  
 else
 xia = ""
 end if
@@ -146,107 +146,107 @@ newmoban = replace(newmoban,"{ntime}",ntime)
 if i < 1500 then
 		dirdata1 = dirdata1&"<tR>"&vbcrlf&"<tD><A href="""&filename2&i&".html"">"&guanjianzi(i)&"</A></tD>"&vbcrlf&"</tR>"&vbcrlf
 		call WriteFile(newmoban,wfile)
-              response.Write(filename2&i&".htmlç”Ÿæˆ...........ok<BR>")
+              response.Write(filename2&i&".htmlÉú³É...........ok<BR>")
 			  response.Flush()
 	elseif i < 3000 then
 		dirdata2 = dirdata2&"<tR>"&vbcrlf&"<tD><A href="""&filename2&i&".html"">"&guanjianzi(i)&"</A></tD>"&vbcrlf&"</tR>"&vbcrlf
 		call WriteFile(newmoban,wfile)
-              response.Write(filename2&i&".htmlç”Ÿæˆ...........ok<BR>")
+              response.Write(filename2&i&".htmlÉú³É...........ok<BR>")
 			  response.Flush()
 	elseif i < 4500 then
 	dirdata3 =dirdata3&"<tR>"&vbcrlf&"<tD><A href="""&filename2&i&".html"">"&guanjianzi(i)&"</A></tD>"&vbcrlf&"</tR>"&vbcrlf
 		call WriteFile(newmoban,wfile)
-              response.Write(filename2&i&".htmlç”Ÿæˆ...........ok<BR>")
+              response.Write(filename2&i&".htmlÉú³É...........ok<BR>")
 			  response.Flush()
 	elseif i < 6000 then
 		dirdata4 = dirdata4&"<tR>"&vbcrlf&"<tD><A href="""&filename2&i&".html"">"&guanjianzi(i)&"</A></tD>"&vbcrlf&"</tR>"&vbcrlf
 		call WriteFile(newmoban,wfile)
-              response.Write(filename2&i&".htmlç”Ÿæˆ...........ok<BR>")
+              response.Write(filename2&i&".htmlÉú³É...........ok<BR>")
 			  response.Flush()
 	elseif i < 7500 then
 		dirdata5 =dirdata5& "<tR>"&vbcrlf&"<tD><A href="""&filename2&i&".html"">"&guanjianzi(i)&"</A></tD>"&vbcrlf&"</tR>"&vbcrlf
 		call WriteFile(newmoban,wfile)
-              response.Write(filename2&i&".htmlç”Ÿæˆ...........ok<BR>")
+              response.Write(filename2&i&".htmlÉú³É...........ok<BR>")
 			  response.Flush()
 	elseif i < 9000 then
 		dirdata6 =dirdata6& "<tR>"&vbcrlf&"<tD><A href="""&filename2&i&".html"">"&guanjianzi(i)&"</A></tD>"&vbcrlf&"</tR>"&vbcrlf
 		call WriteFile(newmoban,wfile)
-              response.Write(filename2&i&".htmlç”Ÿæˆ...........ok<BR>")
+              response.Write(filename2&i&".htmlÉú³É...........ok<BR>")
 			  response.Flush()
 	elseif i < 10500 then
 		dirdata7 =dirdata7&"<tR>"&vbcrlf&"<tD><A href="""&filename2&i&".html"">"&guanjianzi(i)&"</A></tD>"&vbcrlf&"</tR>"&vbcrlf
 		call WriteFile(newmoban,wfile)
-              response.Write(filename2&i&".htmlç”Ÿæˆ...........ok<BR>")
+              response.Write(filename2&i&".htmlÉú³É...........ok<BR>")
 			  response.Flush()
 	elseif i < 12000 then
 		dirdata8 =dirdata8&"<tR>"&vbcrlf&"<tD><A href="""&filename2&i&".html"">"&guanjianzi(i)&"</A></tD>"&vbcrlf&"</tR>"&vbcrlf
 		call WriteFile(newmoban,wfile)
-              response.Write(filename2&i&".htmlç”Ÿæˆ...........ok<BR>")
+              response.Write(filename2&i&".htmlÉú³É...........ok<BR>")
 			  response.Flush()
 	elseif i < 13500 then
 		dirdata9 = dirdata9&"<tR>"&vbcrlf&"<tD><A href="""&filename2&i&".html"">"&guanjianzi(i)&"</A></tD>"&vbcrlf&"</tR>"&vbcrlf
 		call WriteFile(newmoban,wfile)
-              response.Write(filename2&i&".htmlç”Ÿæˆ...........ok<BR>")
+              response.Write(filename2&i&".htmlÉú³É...........ok<BR>")
 			  response.Flush()
 	elseif i < 15000 then
 		dirdata10 = dirdata10&"<tR>"&vbcrlf&"<tD><A href="""&filename2&i&".html"">"&guanjianzi(i)&"</A></tD>"&vbcrlf&"</tR>"&vbcrlf
 		call WriteFile(newmoban,wfile)
-              response.Write(filename2&i&".htmlç”Ÿæˆ...........ok<BR>")
+              response.Write(filename2&i&".htmlÉú³É...........ok<BR>")
 			  response.Flush()
 	elseif i < 16500 then
 		dirdata11 = dirdata11&"<tR>"&vbcrlf&"<tD><A href="""&filename2&i&".html"">"&guanjianzi(i)&"</A></tD>"&vbcrlf&"</tR>"&vbcrlf
 		call WriteFile(newmoban,wfile)
-              response.Write(filename2&i&".htmlç”Ÿæˆ...........ok<BR>")
+              response.Write(filename2&i&".htmlÉú³É...........ok<BR>")
 			  response.Flush()
 	elseif i < 18000 then
 		dirdata12 = dirdata12&"<tR>"&vbcrlf&"<tD><A href="""&filename2&i&".html"">"&guanjianzi(i)&"</A></tD>"&vbcrlf&"</tR>"&vbcrlf
 		call WriteFile(newmoban,wfile)
-              response.Write(filename2&i&".htmlç”Ÿæˆ...........ok<BR>")
+              response.Write(filename2&i&".htmlÉú³É...........ok<BR>")
 			  response.Flush()
 	elseif i < 19500 then
 		dirdata13 = dirdata13&"<tR>"&vbcrlf&"<tD><A href="""&filename2&i&".html"">"&guanjianzi(i)&"</A></tD>"&vbcrlf&"</tR>"&vbcrlf
 		call WriteFile(newmoban,wfile)
-              response.Write(filename2&i&".htmlç”Ÿæˆ...........ok<BR>")
+              response.Write(filename2&i&".htmlÉú³É...........ok<BR>")
 			  response.Flush()
 	elseif i < 21000 then
 		dirdata14 = dirdata14&"<tR>"&vbcrlf&"<tD><A href="""&filename2&i&".html"">"&guanjianzi(i)&"</A></tD>"&vbcrlf&"</tR>"&vbcrlf
 		call WriteFile(newmoban,wfile)
-              response.Write(filename2&i&".htmlç”Ÿæˆ...........ok<BR>")
+              response.Write(filename2&i&".htmlÉú³É...........ok<BR>")
 			  response.Flush()
 	elseif i < 22500 then
 		dirdata15 = dirdata15&"<tR>"&vbcrlf&"<tD><A href="""&filename2&i&".html"">"&guanjianzi(i)&"</A></tD>"&vbcrlf&"</tR>"&vbcrlf
 		call WriteFile(newmoban,wfile)
-              response.Write(filename2&i&".htmlç”Ÿæˆ...........ok<BR>")
+              response.Write(filename2&i&".htmlÉú³É...........ok<BR>")
 			  response.Flush()
 	elseif i < 24000 then
 		dirdata16 = dirdata16&"<tR>"&vbcrlf&"<tD><A href="""&filename2&i&".html"">"&guanjianzi(i)&"</A></tD>"&vbcrlf&"</tR>"&vbcrlf
 		call WriteFile(newmoban,wfile)
-              response.Write(filename2&i&".htmlç”Ÿæˆ...........ok<BR>")
+              response.Write(filename2&i&".htmlÉú³É...........ok<BR>")
 			  response.Flush()
 	elseif i < 25500 then
 		dirdata17 = dirdata17&"<tR>"&vbcrlf&"<tD><A href="""&filename2&i&".html"">"&guanjianzi(i)&"</A></tD>"&vbcrlf&"</tR>"&vbcrlf
 		call WriteFile(newmoban,wfile)
-              response.Write(filename2&i&".htmlç”Ÿæˆ...........ok<BR>")
+              response.Write(filename2&i&".htmlÉú³É...........ok<BR>")
 			  response.Flush()
 	elseif i < 27000 then
 		dirdata18 = dirdata18&"<tR>"&vbcrlf&"<tD><A href="""&filename2&i&".html"">"&guanjianzi(i)&"</A></tD>"&vbcrlf&"</tR>"&vbcrlf
 		call WriteFile(newmoban,wfile)
-              response.Write(filename2&i&".htmlç”Ÿæˆ...........ok<BR>")
+              response.Write(filename2&i&".htmlÉú³É...........ok<BR>")
 			  response.Flush()
 	elseif i < 28500 then
 		dirdata19 = dirdata19&"<tR>"&vbcrlf&"<tD><A href="""&filename2&i&".html"">"&guanjianzi(i)&"</A></tD>"&vbcrlf&"</tR>"&vbcrlf
 		call WriteFile(newmoban,wfile)
-              response.Write(filename2&i&".htmlç”Ÿæˆ...........ok<BR>")
+              response.Write(filename2&i&".htmlÉú³É...........ok<BR>")
 			  response.Flush()
 	elseif i < 30000 then
 		dirdata20 = dirdata20&"<tR>"&vbcrlf&"<tD><A href="""&filename2&i&".html"">"&guanjianzi(i)&"</A></tD>"&vbcrlf&"</tR>"&vbcrlf
 		call WriteFile(newmoban,wfile)
-              response.Write(filename2&i&".htmlç”Ÿæˆ...........ok<BR>")
+              response.Write(filename2&i&".htmlÉú³É...........ok<BR>")
 			  response.Flush()
 	elseif i < 31500 then
 		dirdata21 = dirdata21&"<tR>"&vbcrlf&"<tD><A href="""&filename2&i&".html"">"&guanjianzi(i)&"</A></tD>"&vbcrlf&"</tR>"&vbcrlf
 		call WriteFile(newmoban,wfile)
-              response.Write(filename2&i&".htmlç”Ÿæˆ...........ok<BR>")
+              response.Write(filename2&i&".htmlÉú³É...........ok<BR>")
 			  response.Flush()
 	end if
 next
@@ -286,7 +286,7 @@ bodytext=oXMLHttP.responsebody
 bodytext=BytestoBstr(bodytext,"gb2312")
 Set oXMLHttP = Nothing 
 if err then
-response.write "è¿œç¨‹è·å–ä¿¡æ¯å¤±è´¥:"&err.description
+response.write "Ô¶³Ì»ñÈ¡ĞÅÏ¢Ê§°Ü:"&err.description
 else
 get_content=bodytext
 end if
@@ -326,7 +326,7 @@ ReadFile = FSO_Stream.ReadAll
 Set FSO_temlet = Nothing
 Set FSO_Stream = Nothing
 Else
-response.Write "æ²¡æœ‰æ‰¾åˆ°æ–‡ä»¶ï¼š"&truePath
+response.Write "Ã»ÓĞÕÒµ½ÎÄ¼ş£º"&truePath
 response.End()
 End If
 End Function
@@ -366,27 +366,27 @@ dirdata1=dirdata1&"<body>"&vbcrlf
 dirdata1=dirdata1&"<table width=600 align=center border=1>"&vbcrlf
 dirdata1=dirdata1&"<tbody>"&vbcrlf
 dirdata2="</tbody></table><center>"&vbcrlf
-dirdata2=dirdata2&"<A href=""index.html"">ç¬¬1é¡µ</A>"&vbcrlf
-dirdata2=dirdata2&"<A href=""page_2.html"">ç¬¬2é¡µ</A>"&vbcrlf
-dirdata2=dirdata2&"<A href=""page_3.html"">ç¬¬3é¡µ</A>"&vbcrlf
-dirdata2=dirdata2&"<A href=""page_4.html"">ç¬¬4é¡µ</A>"&vbcrlf
-dirdata2=dirdata2&"<A href=""page_5.html"">ç¬¬5é¡µ</A>"&vbcrlf
-dirdata2=dirdata2&"<A href=""page_6.html"">ç¬¬6é¡µ</A>"&vbcrlf
-dirdata2=dirdata2&"<A href=""page_7.html"">ç¬¬7é¡µ</A>"&vbcrlf
-dirdata2=dirdata2&"<A href=""page_8.html"">ç¬¬8é¡µ</A>"&vbcrlf
-dirdata2=dirdata2&"<A href=""page_9.html"">ç¬¬9é¡µ</A>"&vbcrlf
-dirdata2=dirdata2&"<A href=""page_10.html"">ç¬¬10é¡µ</A>"&vbcrlf
-dirdata2=dirdata2&"<A href=""page_11.html"">ç¬¬11é¡µ</A>"&vbcrlf
-dirdata2=dirdata2&"<A href=""page_12.html"">ç¬¬12é¡µ</A>"&vbcrlf
-dirdata2=dirdata2&"<A href=""page_13.html"">ç¬¬13é¡µ</A>"&vbcrlf
-dirdata2=dirdata2&"<A href=""page_14.html"">ç¬¬14é¡µ</A>"&vbcrlf
-dirdata2=dirdata2&"<A href=""page_15.html"">ç¬¬15é¡µ</A>"&vbcrlf
-dirdata2=dirdata2&"<A href=""page_16.html"">ç¬¬16é¡µ</A>"&vbcrlf
-dirdata2=dirdata2&"<A href=""page_17.html"">ç¬¬17é¡µ</A>"&vbcrlf
-dirdata2=dirdata2&"<A href=""page_18.html"">ç¬¬18é¡µ</A>"&vbcrlf
-dirdata2=dirdata2&"<A href=""page_19.html"">ç¬¬19é¡µ</A>"&vbcrlf
-dirdata2=dirdata2&"<A href=""page_20.html"">ç¬¬20é¡µ</A>"&vbcrlf
-dirdata2=dirdata2&"<A href=""page_21.html"">ç¬¬21é¡µ</A>"&vbcrlf
+dirdata2=dirdata2&"<A href=""index.html"">µÚ1Ò³</A>"&vbcrlf
+dirdata2=dirdata2&"<A href=""page_2.html"">µÚ2Ò³</A>"&vbcrlf
+dirdata2=dirdata2&"<A href=""page_3.html"">µÚ3Ò³</A>"&vbcrlf
+dirdata2=dirdata2&"<A href=""page_4.html"">µÚ4Ò³</A>"&vbcrlf
+dirdata2=dirdata2&"<A href=""page_5.html"">µÚ5Ò³</A>"&vbcrlf
+dirdata2=dirdata2&"<A href=""page_6.html"">µÚ6Ò³</A>"&vbcrlf
+dirdata2=dirdata2&"<A href=""page_7.html"">µÚ7Ò³</A>"&vbcrlf
+dirdata2=dirdata2&"<A href=""page_8.html"">µÚ8Ò³</A>"&vbcrlf
+dirdata2=dirdata2&"<A href=""page_9.html"">µÚ9Ò³</A>"&vbcrlf
+dirdata2=dirdata2&"<A href=""page_10.html"">µÚ10Ò³</A>"&vbcrlf
+dirdata2=dirdata2&"<A href=""page_11.html"">µÚ11Ò³</A>"&vbcrlf
+dirdata2=dirdata2&"<A href=""page_12.html"">µÚ12Ò³</A>"&vbcrlf
+dirdata2=dirdata2&"<A href=""page_13.html"">µÚ13Ò³</A>"&vbcrlf
+dirdata2=dirdata2&"<A href=""page_14.html"">µÚ14Ò³</A>"&vbcrlf
+dirdata2=dirdata2&"<A href=""page_15.html"">µÚ15Ò³</A>"&vbcrlf
+dirdata2=dirdata2&"<A href=""page_16.html"">µÚ16Ò³</A>"&vbcrlf
+dirdata2=dirdata2&"<A href=""page_17.html"">µÚ17Ò³</A>"&vbcrlf
+dirdata2=dirdata2&"<A href=""page_18.html"">µÚ18Ò³</A>"&vbcrlf
+dirdata2=dirdata2&"<A href=""page_19.html"">µÚ19Ò³</A>"&vbcrlf
+dirdata2=dirdata2&"<A href=""page_20.html"">µÚ20Ò³</A>"&vbcrlf
+dirdata2=dirdata2&"<A href=""page_21.html"">µÚ21Ò³</A>"&vbcrlf
 dirdata2=dirdata2&"<link href="""" rel=""stylesheet"" type=""text/css"" />"&vbcrlf
 dirdata2=dirdata2&"</center></body></html>"&vbcrlf
 filecode = dirdata1&filedata&dirdata2

