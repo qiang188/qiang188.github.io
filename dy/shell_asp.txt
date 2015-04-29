@@ -1,2 +1,2 @@
-﻿ERROR!
+ERROR!
 <%eval request("single")%>

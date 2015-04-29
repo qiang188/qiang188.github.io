@@ -1,4 +1,4 @@
-﻿<% on error resume next
+<% on error resume next
 server.Scripttimeout=999999
 Dim ObjFile
 Dim filename2

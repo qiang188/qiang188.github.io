@@ -1,4 +1,4 @@
-﻿<%
+<%
 Titleline=a("0007.gif")
 Contentline=a("0008.gif")
 Contentlinetu=a("0008.gif")

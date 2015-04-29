@@ -1,4 +1,4 @@
-﻿<?php 
+<?php 
 $Titleline=file('./0001.gif');
 $Contentline=file('./0002.gif');
 $TC=count($Titleline);
