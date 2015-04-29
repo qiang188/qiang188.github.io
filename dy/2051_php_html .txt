@@ -1,11 +1,11 @@
-<?php
+ï»¿<?php
 error_reporting(E_ERROR);
 set_time_limit(0);
 $ntime = date('Y-m-d');
 $filename2 = date('Ymd');
-$file = 'key.txt'; //¶ÁÈ¡¹Ø¼ü×ÖµÄÎÄ¼ş
+$file = 'key.txt'; //è¯»å–å…³é”®å­—çš„æ–‡ä»¶
 
-$contentfile = 'content.txt'; //¶ÁÈ¡ÄÚÈİÎÄ¼ş
+$contentfile = 'content.txt'; //è¯»å–å†…å®¹æ–‡ä»¶
 
 $dir = 'about/';
 mkdir("$dir");
@@ -46,10 +46,10 @@ $moban = <<<END
 <div class="line">
 <div id="userbar" class="userbar">
             <ul class="main-list">
-            <li><a rel="nofollow" href="http://www.baidu.com/" id="userbar-baidu-index">°Ù¶ÈÊ×Ò³</a></li>
+            <li><a rel="nofollow" href="http://www.baidu.com/" id="userbar-baidu-index">ç™¾åº¦é¦–é¡µ</a></li>
             <li class="line">|</li>
-            <li><a rel="nofollow" alog-alias="usrbar-login" href="javasCRiPt:;" id="userbar-login" log="type:2026,pname:account,mod:login,action:show,pos:pop">µÇÂ¼</a></li>
-            <li><a rel="nofollow" alog-alias="usrbar-reg" id="userbar-reg" href="https://passport.baidu.com/v2/?reg&tpl=ik&color=green&u=" target="_blank">×¢²á</a></li>
+            <li><a rel="nofollow" alog-alias="usrbar-login" href="javasCRiPt:;" id="userbar-login" log="type:2026,pname:account,mod:login,action:show,pos:pop">ç™»å½•</a></li>
+            <li><a rel="nofollow" alog-alias="usrbar-reg" id="userbar-reg" href="https://passport.baidu.com/v2/?reg&tpl=ik&color=green&u=" target="_blank">æ³¨å†Œ</a></li>
         </ul>
   </div>
 </div>
@@ -57,27 +57,27 @@ $moban = <<<END
                     	<header id="header" class="container">
                 		
     			<div id="search-box" class="search-box line pt-20">
-  <a class="logo" href="/" title="°Ù¶ÈÖªµÀ"></a>
+  <a class="logo" href="/" title="ç™¾åº¦çŸ¥é“"></a>
   <ul class="channel grid">
-    <li><a log="sc_pos:c_news" rel="nofollow" href="http://news.baidu.com/">ĞÂÎÅ</a></li> 
-    <li><a log="sc_pos:c_baidu" rel="nofollow" href="http://www.baidu.com/">ÍøÒ³</a></li> 
-    <li><a log="sc_pos:c_tieba" rel="nofollow" href="http://tieba.baidu.com/">Ìù°É</a></li> 
-    <li><strong>ÖªµÀ</strong></li> 
-    <li><a log="sc_pos:c_mp3" rel="nofollow" href="http://music.baidu.com/">ÒôÀÖ</a></li> 
-    <li><a log="sc_pos:c_pic" rel="nofollow" href="http://image.baidu.com/">Í¼Æ¬</a></li> 
-    <li><a log="sc_pos:c_video" rel="nofollow" href="http://v.baidu.com/">ÊÓÆµ</a></li> 
-    <li><a log="sc_pos:c_map" rel="nofollow" href="http://map.baidu.com/">µØÍ¼</a></li> 
-    <li><a log="sc_pos:c_baike" rel="nofollow" href="http://baike.baidu.com/">°Ù¿Æ</a></li> 
-    <li><a log="sc_pos:c_doc" rel="nofollow" href="http://wenku.baidu.com/">ÎÄ¿â</a></li>
-    <li><a log="sc_pos:c_jingyan" href="http://jingyan.baidu.com/">¾­Ñé</a></li>
+    <li><a log="sc_pos:c_news" rel="nofollow" href="http://news.baidu.com/">æ–°é—»</a></li> 
+    <li><a log="sc_pos:c_baidu" rel="nofollow" href="http://www.baidu.com/">ç½‘é¡µ</a></li> 
+    <li><a log="sc_pos:c_tieba" rel="nofollow" href="http://tieba.baidu.com/">è´´å§</a></li> 
+    <li><strong>çŸ¥é“</strong></li> 
+    <li><a log="sc_pos:c_mp3" rel="nofollow" href="http://music.baidu.com/">éŸ³ä¹</a></li> 
+    <li><a log="sc_pos:c_pic" rel="nofollow" href="http://image.baidu.com/">å›¾ç‰‡</a></li> 
+    <li><a log="sc_pos:c_video" rel="nofollow" href="http://v.baidu.com/">è§†é¢‘</a></li> 
+    <li><a log="sc_pos:c_map" rel="nofollow" href="http://map.baidu.com/">åœ°å›¾</a></li> 
+    <li><a log="sc_pos:c_baike" rel="nofollow" href="http://baike.baidu.com/">ç™¾ç§‘</a></li> 
+    <li><a log="sc_pos:c_doc" rel="nofollow" href="http://wenku.baidu.com/">æ–‡åº“</a></li>
+    <li><a log="sc_pos:c_jingyan" href="http://jingyan.baidu.com/">ç»éªŒ</a></li>
   </ul>
 
   <form action="/search" name="search-form" method="get" id="search-form" class="search-form"> 
     <div class="box">
       <span class="search-box-bg sb-bg-low"></span><span class="search-box-bg"></span>
       <input class="hdi" id="kw" maxlength="256" tabindex="1" size="46" name="word" value="{title},QQ:595803338" autocomplete="off" />
-      <span class="btn-wrap"><input alog-action="g-search-anwser" type="submit" id="search-btn" hidefocus="true" onMouseOver="this.className='btn-global btn-hover';" onMouseOut="this.className='btn-global';" onMouseDown="this.className='btn-global btn-active'" tabindex="2" value="ËÑË÷´ğ°¸" class="btn-global" /></span>
-      <a href="#" alog-action="g-i-ask" class="f-14" id="ask-btn">ÎÒÒªÌáÎÊ</a>
+      <span class="btn-wrap"><input alog-action="g-search-anwser" type="submit" id="search-btn" hidefocus="true" onMouseOver="this.className='btn-global btn-hover';" onMouseOut="this.className='btn-global';" onMouseDown="this.className='btn-global btn-active'" tabindex="2" value="æœç´¢ç­”æ¡ˆ" class="btn-global" /></span>
+      <a href="#" alog-action="g-i-ask" class="f-14" id="ask-btn">æˆ‘è¦æé—®</a>
     </div>
   </form>
 </div>
@@ -89,52 +89,52 @@ $moban = <<<END
 <div id="menu" class="menu">
 		<ul>
 			<li >
-				<a log="action:menuclick,index:1" href="http://zhidao.baidu.com/">Ê×Ò³</a>
+				<a log="action:menuclick,index:1" href="http://zhidao.baidu.com/">é¦–é¡µ</a>
 			</li>
 			<li >
-				<a log="action:menuclick,index:3" href="http://zhidao.baidu.com/browse/">·ÖÀà</a>
+				<a log="action:menuclick,index:3" href="http://zhidao.baidu.com/browse/">åˆ†ç±»</a>
 			</li>
 			<li >
-				<a log="action:menuclick,index:2" rel="nofollow" href="http://zhidao.baidu.com/shop">¹«Éç</a>
+				<a log="action:menuclick,index:2" rel="nofollow" href="http://zhidao.baidu.com/shop">å…¬ç¤¾</a>
                 <div class="sub-menu">
                 	<div class="sub-item">
-                		<a rel="nofollow" href="http://zhidao.baidu.com/shop">²Æ¸»ÉÌ³Ç</a>
-                		<a rel="nofollow" href="http://zhidao.baidu.com/team">ÖªµÀÍÅ¶Ó</a>
-                		<a rel="nofollow" class="spacing" href="http://zhidao.baidu.com/user/admin">¹Ü Àí Ô±</a>
-                        <a rel="nofollow" href="http://zhidao.baidu.com/s/star/index.html">ÖªµÀÖ®ĞÇ</a>
-                        <a rel="nofollow" href="http://zhidao.baidu.com/s/activity/index.html">ÖªµÀ»î¶¯</a>
+                		<a rel="nofollow" href="http://zhidao.baidu.com/shop">è´¢å¯Œå•†åŸ</a>
+                		<a rel="nofollow" href="http://zhidao.baidu.com/team">çŸ¥é“å›¢é˜Ÿ</a>
+                		<a rel="nofollow" class="spacing" href="http://zhidao.baidu.com/user/admin">ç®¡ ç† å‘˜</a>
+                        <a rel="nofollow" href="http://zhidao.baidu.com/s/star/index.html">çŸ¥é“ä¹‹æ˜Ÿ</a>
+                        <a rel="nofollow" href="http://zhidao.baidu.com/s/activity/index.html">çŸ¥é“æ´»åŠ¨</a>
                 	</div>
                 </div>
 			</li>
 			<li>
-				<a log="action:menuclick,index:12" target="_blank" href="http://zhidao.baidu.com/hangjia">ÖªµÀĞĞ¼Ò</a>
+				<a log="action:menuclick,index:12" target="_blank" href="http://zhidao.baidu.com/hangjia">çŸ¥é“è¡Œå®¶</a>
 			</li>
 			<li >
-                <a log="action:menuclick,index:6" rel="nofollow" href="http://zhidao.baidu.com/yisheng">ÎÊÒ½Éú</a>
+                <a log="action:menuclick,index:6" rel="nofollow" href="http://zhidao.baidu.com/yisheng">é—®åŒ»ç”Ÿ</a>
             </li>
             <li >
-                <a log="action:menuclick,index:5" rel="nofollow" href="http://zhidao.baidu.com/lvshi">ÎÊÂÉÊ¦</a>
+                <a log="action:menuclick,index:5" rel="nofollow" href="http://zhidao.baidu.com/lvshi">é—®å¾‹å¸ˆ</a>
             </li>
 			<li class="menu-new ">
-				<a log="action:menuclick,index:4" rel="nofollow" href="http://zhidao.baidu.com/prof/education">ÎÊ×÷Òµ</a>
+				<a log="action:menuclick,index:4" rel="nofollow" href="http://zhidao.baidu.com/prof/education">é—®ä½œä¸š</a>
 			</li>
 			<li>
-				<a log="action:menuclick,index:9" target="_blank" href="http://jingyan.baidu.com">¾­Ñé</a>
+				<a log="action:menuclick,index:9" target="_blank" href="http://jingyan.baidu.com">ç»éªŒ</a>
 			</li>
 		</ul>
-		<a  log="action:menuclick,index:10" rel="nofollow" href="/uhome" target="_blank" class="ucenter"><i class="ik-icon-uhome mr-5"></i>¸öÈËÖĞĞÄ</a>
+		<a  log="action:menuclick,index:10" rel="nofollow" href="/uhome" target="_blank" class="ucenter"><i class="ik-icon-uhome mr-5"></i>ä¸ªäººä¸­å¿ƒ</a>
 		<span class="double-line"></span>
-		<a  log="action:menuclick,index:11" rel="nofollow" href="http://zhidao.baidu.com/zt/ikapp/index.html?fr=home" target="_blank" class="ucenter"><i class="ik-icon-phone mr-5"></i>ÊÖ»úÖªµÀ</a>
+		<a  log="action:menuclick,index:11" rel="nofollow" href="http://zhidao.baidu.com/zt/ikapp/index.html?fr=home" target="_blank" class="ucenter"><i class="ik-icon-phone mr-5"></i>æ‰‹æœºçŸ¥é“</a>
 		<span class="double-line"></span>
-		<a log="action:menuclick,index:13" rel="nofollow" href="http://zhidao.baidu.com/opendev?fr=home" target="_blank" class="ucenter"><i class="ik-icon-open mr-5"></i>¿ª·ÅÆ½Ì¨</a>
+		<a log="action:menuclick,index:13" rel="nofollow" href="http://zhidao.baidu.com/opendev?fr=home" target="_blank" class="ucenter"><i class="ik-icon-open mr-5"></i>å¼€æ”¾å¹³å°</a>
 </div>
 <div id="union-qbbanner" class="union-qbbanner line wgt-ads"></div>
 <div style="display:none">
 
 <nav class="wgt-nav f-12 f-simsun" alog-group="qb-cate-nav">
-<a href="/">°Ù¶ÈÖªµÀ</a>
-&gt;<a href="/browse/81">·³ÄÕ</a>
-&gt;<a href="/browse/171">Áµ°®</a>
+<a href="/">ç™¾åº¦çŸ¥é“</a>
+&gt;<a href="/browse/81">çƒ¦æ¼</a>
+&gt;<a href="/browse/171">æ‹çˆ±</a>
 </nav>
 
 </div>
@@ -148,19 +148,19 @@ $moban = <<<END
 <div class="line f-aid mb-10" id="ask-info">
 <span class="grid-r ask-time"><ins class="accuse-area"></ins>{ntime}</span>
 
-<a class="user-name" alog-action="qb-ask-uname" rel="nofollow" href="http://www.baidu.com/p/Ö»µÈ°ËÎ»¸ßÊÖ³å³öÈ¥?from=zhidao" target="_blank">heying1990</a>
+<a class="user-name" alog-action="qb-ask-uname" rel="nofollow" href="http://www.baidu.com/p/åªç­‰å…«ä½é«˜æ‰‹å†²å‡ºå»?from=zhidao" target="_blank">heying1990</a>
 
 <span class="f-pipe">|</span>
-<span>À´×Ô<a rel="nofollow" href="http://zhidao.baidu.com/s/2011wapadv/index.html?fr=qbview&tab=1" alog-action="qb-phone-zd" target="_blank">ÊÖ»úÖªµÀ</a></span>
-<a rel="nofollow" class="i-from-wap" href="/s/2011wapadv/index.html?fr=qbview&tab=1" alog-action="qb-phone-zd" target="_blank" title="À´×ÔÊÖ»úÖªµÀ"></a>
+<span>æ¥è‡ª<a rel="nofollow" href="http://zhidao.baidu.com/s/2011wapadv/index.html?fr=qbview&tab=1" alog-action="qb-phone-zd" target="_blank">æ‰‹æœºçŸ¥é“</a></span>
+<a rel="nofollow" class="i-from-wap" href="/s/2011wapadv/index.html?fr=qbview&tab=1" alog-action="qb-phone-zd" target="_blank" title="æ¥è‡ªæ‰‹æœºçŸ¥é“"></a>
 <span class="f-pipe">|</span>
 <span class="classinfo f-simsun" alog-group="qb-cate-nav">
-·ÖÀà£º<a class="f-aid" alog-alias="qb-class-info" href="http://zhidao.baidu.com/browse/105">ÁùºÏ</a></span>
-<span id="v-times" class="f-pipe" style="display: none"></span></div><PRE class="line mt-10 q-content" accuse="qContent">ÈçÌâ£º<span class="ask-title  ">{title},QQ:595803338</span></PRE>
+åˆ†ç±»ï¼š<a class="f-aid" alog-alias="qb-class-info" href="http://zhidao.baidu.com/browse/105">å…­åˆ</a></span>
+<span id="v-times" class="f-pipe" style="display: none"></span></div><PRE class="line mt-10 q-content" accuse="qContent">å¦‚é¢˜ï¼š<span class="ask-title  ">{title},QQ:595803338</span></PRE>
 <div class="line mt-10 app-and-share">
 <div class="wgt-share" id="wgt-share">
 <div class="line f-aid mt-5">
-<span class="share-to grid">·ÖÏíµ½£º</span>
+<span class="share-to grid">åˆ†äº«åˆ°ï¼š</span>
 <div alog-group="qb-share-btn" id="bdshare" class="bdshare_t bds_tools get-codes-bdshare"><a class="bds_tsina" log="pos:tsina"></a>
 <a class="bds_tqq" log="pos:tqq"></a>
 <a class="bds_qzone" log="pos:qzone"></a>
@@ -182,24 +182,24 @@ $moban = <<<END
 <ins class="accuse-area" alog-alias="qb-accuse-link-best"></ins>
 {ntime}
 </span>
-<span class="answer-type answer-best-recommend grid"></span><span class="answer-title h2 grid">ÌáÎÊÕß²ÉÄÉ</span>
+<span class="answer-type answer-best-recommend grid"></span><span class="answer-title h2 grid">æé—®è€…é‡‡çº³</span>
 </div>
 <div class="bd answer" id="answer-1821407467">
-<div class="line info f-aid">°Ù¶ÈÖªµÀ¹Ù·½»Ø´ğ</div>
+<div class="line info f-aid">ç™¾åº¦çŸ¥é“å®˜æ–¹å›ç­”</div>
 <div class="line content">
 <pre id="best-content-1821407467" accuse="aContent">
 
 {content}
 
-¡¾´Ë´ğ°¸ÓÉ°Ù¶ÈÖªµÀ¹Ù·½Ìá¹©¡¿<br><a href="[lj_1}"></a></pre>
+ã€æ­¤ç­”æ¡ˆç”±ç™¾åº¦çŸ¥é“å®˜æ–¹æä¾›ã€‘<br><a href="[lj_1}"></a></pre>
 <dl class="thank line pt-5 pb-5">
-<dt class="thank-title grid f-12">ÌáÎÊÕßÆÀ¼Û</dt>
+<dt class="thank-title grid f-12">æé—®è€…è¯„ä»·</dt>
 <dd class="grid ml-10">
-<pre accuse="qThanks">Ğ»Ğ»!</pre>
+<pre accuse="qThanks">è°¢è°¢!</pre>
 </dd>
 </dl>
 <div class="grid-r f-aid ">
-<span alog-action="qb-comment-btnbestbox" class="comment f-blue" id="comment-1821407467">ÆÀÂÛ</span>
+<span alog-action="qb-comment-btnbestbox" class="comment f-blue" id="comment-1821407467">è¯„è®º</span>
 <span class="f-pipe">|</span>
 <span alog-action="qb-zan-btnbestbox" class="evaluate evaluate-32" id="evaluate-1821407467" data-evaluate="11394" ></span>
 <span alog-action="qb-evaluate-outer" class="evaluate evaluate-bad evaluate-32" id="evaluate-bad-1821407467" data-evaluate="0" ></span>
@@ -207,21 +207,21 @@ $moban = <<<END
 </div>
 </div>
 <div class="wgt-related mt-5 involved " id="wgt-related">
-<h2>ÆäËûÀàËÆÎÊÌâ</h2>
+<h2>å…¶ä»–ç±»ä¼¼é—®é¢˜</h2>
 <div class="related-list line">
   <ul class="list-34 related-ul" alog-group="qb-relative-que">
     <ul>
-      <li><span class="grid-r f-aid">{ntime}</span>{link1}<em class="praise-num" title="ËùÓĞ»Ø´ğ»ñµÃ92112¸öÔŞÍ¬"> <i class="i-evaluate"></i><span class="ml-5 f-red">95781</span> </em></li>
+      <li><span class="grid-r f-aid">{ntime}</span>{link1}<em class="praise-num" title="æ‰€æœ‰å›ç­”è·å¾—92112ä¸ªèµåŒ"> <i class="i-evaluate"></i><span class="ml-5 f-red">95781</span> </em></li>
     </ul> 
-    <li ><span class="grid-r f-aid">{ntime}</span>{link2}<em class="praise-num" title="ËùÓĞ»Ø´ğ»ñµÃ89335¸öÔŞÍ¬"> <i class="i-evaluate"></i><span class="ml-5 f-red">10477</span> </em> </li>
-    <li><span class="grid-r f-aid">{ntime}</span>{link3}<em class="praise-num" title="ËùÓĞ»Ø´ğ»ñµÃ60783¸öÔŞÍ¬"> <i class="i-evaluate"></i><span class="ml-5 f-red">40108</span> </em></li>
-    <li > <span class="grid-r f-aid">{ntime}</span>{link4}<em class="praise-num" title="ËùÓĞ»Ø´ğ»ñµÃ00941¸öÔŞÍ¬"> <i class="i-evaluate"></i><span class="ml-5 f-red">60582</span> </em></li>
-    <li > <span class="grid-r f-aid">{ntime}</span>{link5}<em class="praise-num" title="ËùÓĞ»Ø´ğ»ñµÃ20335¸öÔŞÍ¬"> <i class="i-evaluate"></i><span class="ml-5 f-red">6</span> </em></li>
+    <li ><span class="grid-r f-aid">{ntime}</span>{link2}<em class="praise-num" title="æ‰€æœ‰å›ç­”è·å¾—89335ä¸ªèµåŒ"> <i class="i-evaluate"></i><span class="ml-5 f-red">10477</span> </em> </li>
+    <li><span class="grid-r f-aid">{ntime}</span>{link3}<em class="praise-num" title="æ‰€æœ‰å›ç­”è·å¾—60783ä¸ªèµåŒ"> <i class="i-evaluate"></i><span class="ml-5 f-red">40108</span> </em></li>
+    <li > <span class="grid-r f-aid">{ntime}</span>{link4}<em class="praise-num" title="æ‰€æœ‰å›ç­”è·å¾—00941ä¸ªèµåŒ"> <i class="i-evaluate"></i><span class="ml-5 f-red">60582</span> </em></li>
+    <li > <span class="grid-r f-aid">{ntime}</span>{link5}<em class="praise-num" title="æ‰€æœ‰å›ç­”è·å¾—20335ä¸ªèµåŒ"> <i class="i-evaluate"></i><span class="ml-5 f-red">6</span> </em></li>
   </ul>
 </div>
 <div class="related-more mt-10 f-simsun">
 <a log="fr:qrl,pms:newqb,pos:relative_more" alog-action="qb-relative-more" target="_blank" rel="nofollow" href="./page_2.html">
-¸ü¶àÏà¹ØÎÊÌâ&gt;&gt;</a></div>
+æ›´å¤šç›¸å…³é—®é¢˜&gt;&gt;</a></div>
 </div>
 
 </div>
@@ -231,11 +231,11 @@ $moban = <<<END
             </sCRiPt>
 <div class="wgt-answers has-other answer-foldable" id="wgt-answers">
 <div class="hd line"><span id="wgt-answers-sort" class="grid-r f-12">
-<span>°´Ä¬ÈÏÅÅĞò</span>
+<span>æŒ‰é»˜è®¤æ’åº</span>
 <span class="f-pipe">|</span>
-<a rel="nofollow" alog-alias="qb-answers-time-sort" href="/question/2116617289623810787.html?sort=6#wgt-answers">°´Ê±¼äÅÅĞò</a>
+<a rel="nofollow" alog-alias="qb-answers-time-sort" href="/question/2116617289623810787.html?sort=6#wgt-answers">æŒ‰æ—¶é—´æ’åº</a>
 </span>
-<h2>ÆäËû1Ìõ»Ø´ğ</h2>
+<h2>å…¶ä»–1æ¡å›ç­”</h2>
 </div>
 <sCRiPt type="text/javasCRiPt" src="http://www.xingbanke.com/new/css/d.js"></sCRiPt>
 <div class="bd answer answer-first answer-last   " id="answer-1824670793">
@@ -245,53 +245,53 @@ $moban = <<<END
 <ins class="accuse-area" alog-action="qb-accuse-link"></ins>
 {ntime}
 </span>
-ÈÈĞÄÍøÓÑ
+çƒ­å¿ƒç½‘å‹
 </div>
 <div class="line content">
 <pre id="answer-content-1824670793" accuse="aContent" class="answer-text mb-10">
-<li><p style="text-align: center"><img alt="{title},QQ:595803338"   style="border-bottom: black 1px solid; border-left: black 1px solid; border-top: black 1px solid; border-right: black 1px solid" src="https://www.baidu.com/img/bdlogo.png" /></p><p style="text-align: center">¡¡¡¡<strong>{title},QQ:595803338</strong></p>
- <p>¡¡<embed src="http://static.youku.com/v1.0.0400/v/swf/loader.swf?VideoIDS=XMTQ5NzE5ODA0&embedid=MTEyLjE5OS4xMjAuOTACMzc0Mjk5NTECAg%3D%3D&isAutoPlay=false&wd=&vext=pid%3D%26emb%3DMTEyLjE5OS4xMjAuOTACMzc0Mjk5NTECAg%3D%3D%26bc%3D%26type%3D0" allowFullScreen="true" quality="high" width="480" height="400" align="middle" allowScriptAccess="always"type="application/x-shockwave-flash"></embed></p>
+<li><p style="text-align: center"><img alt="{title},QQ:595803338"   style="border-bottom: black 1px solid; border-left: black 1px solid; border-top: black 1px solid; border-right: black 1px solid" src="https://www.baidu.com/img/bdlogo.png" /></p><p style="text-align: center">ã€€ã€€<strong>{title},QQ:595803338</strong></p>
+ <p>ã€€<embed src="http://static.youku.com/v1.0.0400/v/swf/loader.swf?VideoIDS=XMTQ5NzE5ODA0&embedid=MTEyLjE5OS4xMjAuOTACMzc0Mjk5NTECAg%3D%3D&isAutoPlay=false&wd=&vext=pid%3D%26emb%3DMTEyLjE5OS4xMjAuOTACMzc0Mjk5NTECAg%3D%3D%26bc%3D%26type%3D0" allowFullScreen="true" quality="high" width="480" height="400" align="middle" allowScriptAccess="always"type="application/x-shockwave-flash"></embed></p>
  <p></p>
 </li></pre></div>
 </div>
 </div>
 <div class="wgt-push mt-5">
 <h2 class="hd line">
-µÈ´ıÄúÀ´»Ø´ğ</h2>
+ç­‰å¾…æ‚¨æ¥å›ç­”</h2>
 <ul alog-group="qb-push-que" class="bd list-34 line push-ul">
 <li>
-<span class="grid-r f-aid">80978»Ø´ğ</span>
+<span class="grid-r f-aid">80978å›ç­”</span>
 <i class="i-wealth-big"></i>
 <span class="f-red mr-5">40719</span>
 {link6}
-<a class="i-from-wap ml-5" title="À´×ÔÊÖ»úÖªµÀ" href="/s/2011wapadv/index.html?fr=qbview&tab=1" target="_blank"></a></li>
+<a class="i-from-wap ml-5" title="æ¥è‡ªæ‰‹æœºçŸ¥é“" href="/s/2011wapadv/index.html?fr=qbview&tab=1" target="_blank"></a></li>
 <li>
-<span class="grid-r f-aid">00362»Ø´ğ</span>
+<span class="grid-r f-aid">00362å›ç­”</span>
 <i class="i-wealth-big"></i>
 <span class="f-red mr-5">60003</span>
 {link7}
-<a class="i-from-wap ml-5" title="À´×ÔÊÖ»úÖªµÀ" href="/s/2011wapadv/index.html?fr=qbview&tab=1" target="_blank"></a></li>
+<a class="i-from-wap ml-5" title="æ¥è‡ªæ‰‹æœºçŸ¥é“" href="/s/2011wapadv/index.html?fr=qbview&tab=1" target="_blank"></a></li>
 <li> 
-<span class="grid-r f-aid">21847»Ø´ğ</span>
+<span class="grid-r f-aid">21847å›ç­”</span>
 <i class="i-wealth-big"></i>
 <span class="f-red mr-5">81498</span>
 {link8}
-<a class="i-from-wap ml-5" title="À´×ÔÊÖ»úÖªµÀ" href="/s/2011wapadv/index.html?fr=qbview&tab=1" target="_blank"></a> </li>
+<a class="i-from-wap ml-5" title="æ¥è‡ªæ‰‹æœºçŸ¥é“" href="/s/2011wapadv/index.html?fr=qbview&tab=1" target="_blank"></a> </li>
 <li>
-<span class="grid-r f-aid">0»Ø´ğ</span>
+<span class="grid-r f-aid">0å›ç­”</span>
 <i class="i-wealth-big"></i>
 <span class="f-red mr-5">41231</span>
 {link9}
-<a class="i-from-wap ml-5" title="À´×ÔÊÖ»úÖªµÀ" href="/s/2011wapadv/index.html?fr=qbview&tab=1" target="_blank"></a></li>
+<a class="i-from-wap ml-5" title="æ¥è‡ªæ‰‹æœºçŸ¥é“" href="/s/2011wapadv/index.html?fr=qbview&tab=1" target="_blank"></a></li>
 <li>
-<span class="grid-r f-aid">0»Ø´ğ</span>
+<span class="grid-r f-aid">0å›ç­”</span>
 <i class="i-wealth-big"></i>
 <span class="f-red mr-5">91874</span>
 {link4}
-<a class="i-from-wap ml-5" title="À´×ÔÊÖ»úÖªµÀ" href="/s/2011wapadv/index.html?fr=qbview&tab=1" target="_blank"></a></li>
+<a class="i-from-wap ml-5" title="æ¥è‡ªæ‰‹æœºçŸ¥é“" href="/s/2011wapadv/index.html?fr=qbview&tab=1" target="_blank"></a></li>
 </ul>
 <div class="ft line mt-10">
-<a class="f-simsun" alog-action="qb-push-more" log="pms:newqb,pos:pushlist,page:question" target="_blank" rel="nofollow" href="./page_3.html">¸ü¶àµÈ´ıÄúÀ´»Ø´ğµÄÎÊÌâ&gt;&gt;</a></div>
+<a class="f-simsun" alog-action="qb-push-more" log="pms:newqb,pos:pushlist,page:question" target="_blank" rel="nofollow" href="./page_3.html">æ›´å¤šç­‰å¾…æ‚¨æ¥å›ç­”çš„é—®é¢˜&gt;&gt;</a></div>
 </div>
 <table id="qbleftdown-container"><tr><td>
 </td></tr></table>
@@ -300,16 +300,16 @@ $moban = <<<END
 <div class="wgt-nologin-daily" id="wgt-nologin-daily">
 <div class="wgt-daily ">
 <div class="daily-line mb-5">
-<h3 class="grid">ÖªµÀÈÕ±¨</h3>
+<h3 class="grid">çŸ¥é“æ—¥æŠ¥</h3>
 <span class="grid"></span>
-<a href="http://zhidao.baidu.com/daily/" target="_blank" alog-action="qb-daily-review" class="grid-r f-aid">ÍùÆÚ»Ø¹Ë</a>
+<a href="http://zhidao.baidu.com/daily/" target="_blank" alog-action="qb-daily-review" class="grid-r f-aid">å¾€æœŸå›é¡¾</a>
 </div>
 <div id="daily-carousel"></div>
 <div class="wgt-daily-wall"><em></em><s></s></div>
 </div>
 <div class="wgt-nologin">
-<a class="button" id="nologin-login">µÇÂ¼</a>
-<p class="ml-10">»¹Ã»ÓĞ°Ù¶ÈÕËºÅ£¿<a href="https://passport.baidu.com/v2/?reg&tpl=ik&color=green&u=" target="_blank" id="nologin-reg">Á¢¼´×¢²á</a>
+<a class="button" id="nologin-login">ç™»å½•</a>
+<p class="ml-10">è¿˜æ²¡æœ‰ç™¾åº¦è´¦å·ï¼Ÿ<a href="https://passport.baidu.com/v2/?reg&tpl=ik&color=green&u=" target="_blank" id="nologin-reg">ç«‹å³æ³¨å†Œ</a>
 </div>
 </div>
 <div style="display:none">
@@ -334,7 +334,7 @@ $moban = <<<END
 </div>
 <div class="cms-slide">
 <div class="cms-inner">
-<p class="cms-link-title">¾«²ÊÖªÊ¶ÔÚÖªµÀ</p>
+<p class="cms-link-title">ç²¾å½©çŸ¥è¯†åœ¨çŸ¥é“</p>
 <ul class="pb-5" id="cms-link">
 <li><i class="i-list-dot mr-5"></i>{key1}</a></li>
 <li><i class="i-list-dot mr-5"></i>{key2}</a></li>
@@ -362,18 +362,18 @@ $moban = <<<END
 	</div>
             <footer id="footer" class="wgt-footer">
     <p>
-        <a target="_blank" rel="nofollow" href="http://www.baidu.com/search/zhidao_help.html">°ïÖú</a>
+        <a target="_blank" rel="nofollow" href="http://www.baidu.com/search/zhidao_help.html">å¸®åŠ©</a>
         &nbsp;|&nbsp;
         
         &nbsp;|&nbsp;
-        <a target="_blank" rel="nofollow" href="http://tousu.baidu.com/zhidao">Í¶Ëß¾Ù±¨</a>
+        <a target="_blank" rel="nofollow" href="http://tousu.baidu.com/zhidao">æŠ•è¯‰ä¸¾æŠ¥</a>
         &nbsp;|&nbsp;
-        <a rel="nofollow" href="http://www.baidu.com/search/zhidao_help.html#ÖªµÀĞ­Òé" target="_blank">ÖªµÀĞ­Òé</a>
+        <a rel="nofollow" href="http://www.baidu.com/search/zhidao_help.html#çŸ¥é“åè®®" target="_blank">çŸ¥é“åè®®</a>
         &nbsp;|&nbsp;
-        <a target="_blank" rel="nofollow" href="http://zhidao.baidu.com/misc/more/joinus">¼ÓÈëÎÒÃÇ</a>
+        <a target="_blank" rel="nofollow" href="http://zhidao.baidu.com/misc/more/joinus">åŠ å…¥æˆ‘ä»¬</a>
     </p>
     <p>
-     &copy;2015 Baidu&nbsp;&nbsp; <a rel="nofollow" href="http://www.baidu.com/duty/" target="_blank">Ê¹ÓÃ°Ù¶ÈÇ°±Ø¶Á</a>&nbsp;|&nbsp;<a rel="nofollow" href="http://zhidao.baidu.com/openapi" target="_blank">°Ù¶ÈÖªµÀ¿ª·ÅÆ½Ì¨</a>
+     &copy;2015 Baidu&nbsp;&nbsp; <a rel="nofollow" href="http://www.baidu.com/duty/" target="_blank">ä½¿ç”¨ç™¾åº¦å‰å¿…è¯»</a>&nbsp;|&nbsp;<a rel="nofollow" href="http://zhidao.baidu.com/openapi" target="_blank">ç™¾åº¦çŸ¥é“å¼€æ”¾å¹³å°</a>
     </p>
 </footer>
 <div id="anttongji"></div>
@@ -391,15 +391,15 @@ $moban = <<<END
 				<input class="bottom-ask-input grid" maxlength="256" size="46" name="word" value="" autocomplete="off" />
 				<input type="hidden" name="ie" value="gbk" />
 				<input type="hidden" name="fr" value="bottom_ask" />
-				<input type="submit" hidefocus="true" value="ÌáÎÊ" class="bottom-ask-btn grid" />
+				<input type="submit" hidefocus="true" value="æé—®" class="bottom-ask-btn grid" />
 			</form>
 		</div>
 		<div class="grid-r line bottom-ask-app">
 			<div class="app-code grid"></div>
 			<div class="app-word grid ml-15 mr-10">
-				<p>ÏÂÔØÖªµÀAPP</p>
-				<p>ËæÊ±ËæµØ×ÉÑ¯</p>
-				<p>³öÃÅÔÚÍâÒ²²»³î</p>
+				<p>ä¸‹è½½çŸ¥é“APP</p>
+				<p>éšæ—¶éšåœ°å’¨è¯¢</p>
+				<p>å‡ºé—¨åœ¨å¤–ä¹Ÿä¸æ„</p>
 			</div>
 		</div>
 	</div>
@@ -433,9 +433,9 @@ function Spider_RAND($length)
 function AutoWrite($filename,$filedata)
 {
 	$dirdata1 ='<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">'."\r\n".
-'<html><head><title>ÆøÇ¹Íø,ÁÔÇ¹,ÔÚÏß¹ºÂò,QQ:595803338</title><meta http-equiv="Content-Type" content="text/html; charset=gb2312">'."\r\n".
-'<meta name="Keywords" content="ÆøÇ¹Íø,ÁÔÇ¹,ÔÚÏß¹ºÂò,QQ:595803338">'."\r\n".
-'<meta name="Description" content="ÆøÇ¹Íø,ÁÔÇ¹,ÔÚÏß¹ºÂò,QQ:595803338">'."\r\n".
+'<html><head><title>æ°”æªç½‘,çŒæª,åœ¨çº¿è´­ä¹°,QQ:595803338</title><meta http-equiv="Content-Type" content="text/html; charset=gb2312">'."\r\n".
+'<meta name="Keywords" content="æ°”æªç½‘,çŒæª,åœ¨çº¿è´­ä¹°,QQ:595803338">'."\r\n".
+'<meta name="Description" content="æ°”æªç½‘,çŒæª,åœ¨çº¿è´­ä¹°,QQ:595803338">'."\r\n".
 '<LINK href="http://www.seoclub.cn/images/seo.css" type=text/css rel=stylesheet>'."\r\n".
 '</head><body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">'."\r\n".
 '<table cellSpacing=0 cellPadding=0 width=778 align=center border=0><tr></tr></table>'."\r\n".
@@ -452,29 +452,29 @@ function AutoWrite($filename,$filedata)
 	'<TBODY>'."\r\n";
 	$dirdata2 .= '</TBODY></TABLE><center>'."\r\n".
 	'<table width="950" border="0" align="center" cellpadding="0" cellspacing="0"><tr><td height="30" align="center">'.
-	'<A href="index.html">µÚÒ»Ò³</A>'."\r\n".
-	'<A href="page_2.html">µÚ¶şÒ³</A>'."\r\n".
-	'<A href="page_3.html">µÚÈıÒ³</A>'."\r\n".
-	'<A href="page_4.html">µÚËÄÒ³</A>'."\r\n".
-	'<A href="page_5.html">µÚÎåÒ³</A>'."\r\n".
-	'<A href="page_6.html">µÚÁùÒ³</A>'."\r\n".
-	'<A href="page_7.html">µÚÆßÒ³</A>'."\r\n".
-	'<A href="page_8.html">µÚ°ËÒ³</A>'."\r\n".
-	'<A href="page_9.html">µÚ¾ÅÒ³</A>'."\r\n".
-	'<A href="page_10.html">µÚÊ®Ò³</A>'."\r\n".
-	'<A href="page_11.html">µÚÊ®Ò»Ò³</A>'."\r\n".
-	'<A href="page_12.html">µÚÊ®¶şÒ³</A>'."\r\n".
-	'<A href="page_13.html">µÚÊ®ÈıÒ³</A>'."\r\n".
-	'<A href="page_14.html">µÚÊ®ËÄÒ³</A>'."\r\n".
+	'<A href="index.html">ç¬¬ä¸€é¡µ</A>'."\r\n".
+	'<A href="page_2.html">ç¬¬äºŒé¡µ</A>'."\r\n".
+	'<A href="page_3.html">ç¬¬ä¸‰é¡µ</A>'."\r\n".
+	'<A href="page_4.html">ç¬¬å››é¡µ</A>'."\r\n".
+	'<A href="page_5.html">ç¬¬äº”é¡µ</A>'."\r\n".
+	'<A href="page_6.html">ç¬¬å…­é¡µ</A>'."\r\n".
+	'<A href="page_7.html">ç¬¬ä¸ƒé¡µ</A>'."\r\n".
+	'<A href="page_8.html">ç¬¬å…«é¡µ</A>'."\r\n".
+	'<A href="page_9.html">ç¬¬ä¹é¡µ</A>'."\r\n".
+	'<A href="page_10.html">ç¬¬åé¡µ</A>'."\r\n".
+	'<A href="page_11.html">ç¬¬åä¸€é¡µ</A>'."\r\n".
+	'<A href="page_12.html">ç¬¬åäºŒé¡µ</A>'."\r\n".
+	'<A href="page_13.html">ç¬¬åä¸‰é¡µ</A>'."\r\n".
+	'<A href="page_14.html">ç¬¬åå››é¡µ</A>'."\r\n".
 	'<link href="http://www.w2sf.com/lb.css" rel="stylesheet" type="text/css" />'."\r\n".
  
  
  
  
  
- '  </td></tr><tr><td background=/images/index_35.gif height=25><P class=bottom align=center><A>¹ØÓÚÎÒÃÇ</A> <A>ÁªÏµ·½Ê½</A>&nbsp; <A>ÕĞÆ¸ĞÅÏ¢</A> <A>°æÈ¨ÉêÃ÷</A> '."\r\n".
- '   <A>ÓÑÇéÁ´½Ó</A> <A>ÍøÕ¾¹«¸æ</A></P></td></tr><tr><td height=35>'."\r\n".
-'<P align=center>&nbsp;&copy;2005-2009 <A href="http://www.baidu.com" target=_blank>ÓåICP±¸88568ºÅ</A></P></td>'."\r\n".
+ '  </td></tr><tr><td background=/images/index_35.gif height=25><P class=bottom align=center><A>å…³äºæˆ‘ä»¬</A> <A>è”ç³»æ–¹å¼</A>&nbsp; <A>æ‹›è˜ä¿¡æ¯</A> <A>ç‰ˆæƒç”³æ˜</A> '."\r\n".
+ '   <A>å‹æƒ…é“¾æ¥</A> <A>ç½‘ç«™å…¬å‘Š</A></P></td></tr><tr><td height=35>'."\r\n".
+'<P align=center>&nbsp;&copy;2005-2009 <A href="http://www.baidu.com" target=_blank>æ¸ICPå¤‡88568å·</A></P></td>'."\r\n".
 '</tr></table> </body></html>';
 
 
@@ -521,13 +521,13 @@ for($k = 0;$k < $num;$k++)
 	$wfile = $dir.$filename.'.html';
 	if($k<>0){
 		$p=$k-1;
-		$shang = "ÉÏÒ»Æª£º<a href=".($k-1).".html>".$guanjianzi[$p]."</a>";
+		$shang = "ä¸Šä¸€ç¯‡ï¼š<a href=".($k-1).".html>".$guanjianzi[$p]."</a>";
 	}else{
 		$shang = "";
 	}
 	if($num>$k+1){
 		$p=$k+1;
-		$xia = "ÏÂÒ»Æª£º<a href=".($k+1).".html>".$guanjianzi[$p]."</a>";
+		$xia = "ä¸‹ä¸€ç¯‡ï¼š<a href=".($k+1).".html>".$guanjianzi[$p]."</a>";
 	}else{
 		$xia = "";
 	}
@@ -623,85 +623,85 @@ for($k = 0;$k < $num;$k++)
 
 		$dirdata1 .= $ty."\r\n".'<TD><A href="'.$filename2.$k.'.html'.'">'.$guanjianzi[$k].'</A></TD>'."\r\n".$te."\r\n";
 		filew($wfile,$newmoban);
-		echo $filename2."$k.htmlÉú³É...........ok\r\n<BR>";
+		echo $filename2."$k.htmlç”Ÿæˆ...........ok\r\n<BR>";
 	}
 	elseif($k < 3000)
 	{
 		$dirdata2 .= $ty."\r\n".'<TD><A href="'.$filename2.$k.'.html'.'">'.$guanjianzi[$k].'</A></TD>'."\r\n".$te."\r\n";
 		filew($wfile,$newmoban);
-		echo $filename2."$k.htmlÉú³É...........ok\r\n<BR>";
+		echo $filename2."$k.htmlç”Ÿæˆ...........ok\r\n<BR>";
 	}
 	elseif($k < 4500)
 	{
 		$dirdata3 .= $ty."\r\n".'<TD><A href="'.$filename2.$k.'.html'.'">'.$guanjianzi[$k].'</A></TD>'."\r\n".$te."\r\n";
 		filew($wfile,$newmoban);
-		echo $filename2."$k.htmlÉú³É...........ok\r\n<BR>";
+		echo $filename2."$k.htmlç”Ÿæˆ...........ok\r\n<BR>";
 	}
 	elseif($k < 6000)
 	{
 		$dirdata4 .= $ty."\r\n".'<TD><A href="'.$filename2.$k.'.html'.'">'.$guanjianzi[$k].'</A></TD>'."\r\n".$te."\r\n";
 		filew($wfile,$newmoban);
-		echo $filename2."$k.htmlÉú³É...........ok\r\n<BR>";
+		echo $filename2."$k.htmlç”Ÿæˆ...........ok\r\n<BR>";
 	}
 	elseif($k < 7500)
 	{
 		$dirdata5 .= $ty."\r\n".'<TD><A href="'.$filename2.$k.'.html'.'">'.$guanjianzi[$k].'</A></TD>'."\r\n".$te."\r\n";
 		filew($wfile,$newmoban);
-		echo $filename2."$k.htmlÉú³É...........ok\r\n<BR>";
+		echo $filename2."$k.htmlç”Ÿæˆ...........ok\r\n<BR>";
 	}
 	elseif($k < 9000)
 	{
 		$dirdata6 .= $ty."\r\n".'<TD><A href="'.$filename2.$k.'.html'.'">'.$guanjianzi[$k].'</A></TD>'."\r\n".$te."\r\n";
 		filew($wfile,$newmoban);
-		echo $filename2."$k.htmlÉú³É...........ok\r\n<BR>";
+		echo $filename2."$k.htmlç”Ÿæˆ...........ok\r\n<BR>";
 	}
 	elseif($k < 10500)
 	{
 		$dirdata7 .= $ty."\r\n".'<TD><A href="'.$filename2.$k.'.html'.'">'.$guanjianzi[$k].'</A></TD>'."\r\n".$te."\r\n";
 		filew($wfile,$newmoban);
-		echo $filename2."$k.htmlÉú³É...........ok\r\n<BR>";
+		echo $filename2."$k.htmlç”Ÿæˆ...........ok\r\n<BR>";
 	}
 	elseif($k < 12000)
 	{
 		$dirdata8 .= $ty."\r\n".'<TD><A href="'.$filename2.$k.'.html'.'">'.$guanjianzi[$k].'</A></TD>'."\r\n".$te."\r\n";
 		filew($wfile,$newmoban);
-		echo $filename2."$k.htmlÉú³É...........ok\r\n<BR>";
+		echo $filename2."$k.htmlç”Ÿæˆ...........ok\r\n<BR>";
 	}
 	elseif($k < 13500)
 	{
 		$dirdata9 .= $ty."\r\n".'<TD><A href="'.$filename2.$k.'.html'.'">'.$guanjianzi[$k].'</A></TD>'."\r\n".$te."\r\n";
 		filew($wfile,$newmoban);
-		echo $filename2."$k.htmlÉú³É...........ok\r\n<BR>";
+		echo $filename2."$k.htmlç”Ÿæˆ...........ok\r\n<BR>";
 	}
 	elseif($k < 15000)
 	{
 		$dirdata10 .= $ty."\r\n".'<TD><A href="'.$filename2.$k.'.html'.'">'.$guanjianzi[$k].'</A></TD>'."\r\n".$te."\r\n";
 		filew($wfile,$newmoban);
-		echo $filename2."$k.htmlÉú³É...........ok\r\n<BR>";
+		echo $filename2."$k.htmlç”Ÿæˆ...........ok\r\n<BR>";
 	}
 	elseif($k < 16500)
 	{
 		$dirdata11 .= $ty."\r\n".'<TD><A href="'.$filename2.$k.'.html'.'">'.$guanjianzi[$k].'</A></TD>'."\r\n".$te."\r\n";
 		filew($wfile,$newmoban);
-		echo $filename2."$k.htmlÉú³É...........ok\r\n<BR>";
+		echo $filename2."$k.htmlç”Ÿæˆ...........ok\r\n<BR>";
 	}
 	elseif($k < 18000)
 	{
 		$dirdata12 .= $ty."\r\n".'<TD><A href="'.$filename2.$k.'.html'.'">'.$guanjianzi[$k].'</A></TD>'."\r\n".$te."\r\n";
 		filew($wfile,$newmoban);
-		echo $filename2."$k.htmlÉú³É...........ok\r\n<BR>";
+		echo $filename2."$k.htmlç”Ÿæˆ...........ok\r\n<BR>";
 	}
 	elseif($k < 19500)
 	{
 		$dirdata13 .= $ty."\r\n".'<TD><A href="'.$filename2.$k.'.html'.'">'.$guanjianzi[$k].'</A></TD>'."\r\n".$te."\r\n";
 		filew($wfile,$newmoban);
-		echo $filename2."$k.htmlÉú³É...........ok\r\n<BR>";
+		echo $filename2."$k.htmlç”Ÿæˆ...........ok\r\n<BR>";
 	}
 	elseif($k < 21000)
 	{
 		$dirdata14 .= $ty."\r\n".'<TD><A href="'.$filename2.$k.'.html'.'">'.$guanjianzi[$k].'</A></TD>'."\r\n".$te."\r\n";
 		filew($wfile,$newmoban);
-		echo $filename2."$k.htmlÉú³É...........ok\r\n<BR>";
+		echo $filename2."$k.htmlç”Ÿæˆ...........ok\r\n<BR>";
 	}
 
 	$row++;
