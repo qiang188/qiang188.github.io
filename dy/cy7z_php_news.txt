@@ -1,0 +1,83 @@
+<?php 
+$Titleline=file('./0010.gif');
+$Contentline=file('./0011.gif');
+$TC=count($Titleline);
+$CC=count($Contentline);
+function gettitle($id)
+{
+global $Titleline;
+$str=$Titleline[$id];
+return $str;
+}
+function getcontent($id)
+{
+global $Contentline;
+$str=$Contentline[$id];
+$str=str_replace("{title0}","",$str);
+return $str;	
+}
+    $a = ""; 
+for ($i=0;$i<13;$i++)
+{
+$b=getcontent(rand(0,$CC));
+$a.=$b;
+}
+
+$contents = $a;
+
+date_default_timezone_set("PRC");
+$d=strtotime('-5 Hours'); 
+$timer = date("Y-m-d H:i:s",$d);
+
+$Title0=trim(gettitle(rand(0,$TC)));
+$Title1=trim(gettitle(rand(0,$TC)));
+$Title2=trim(gettitle(rand(0,$TC)));
+$link=trim(gettitle(rand(0,$TC)));
+$link1=trim(gettitle(rand(0,$TC)));
+$link2=trim(gettitle(rand(0,$TC)));
+$link3=trim(gettitle(rand(0,$TC)));
+$link4=trim(gettitle(rand(0,$TC)));
+$link5=trim(gettitle(rand(0,$TC)));
+$link6=trim(gettitle(rand(0,$TC)));
+$link7=trim(gettitle(rand(0,$TC)));
+$link8=trim(gettitle(rand(0,$TC)));
+$link9=trim(gettitle(rand(0,$TC)));
+
+$shang=trim(gettitle(rand(0,$TC)));
+$xia=trim(gettitle(rand(0,$TC)));
+
+$shang="<a href='?".rand(1,100000)."'>".$shang."</a>";
+$xia="<a href='?".rand(1,100000)."'>".$xia."</a>";
+$link="<a href='?".rand(1,100000)."'>".$link."</a>";
+$link1="<a href='?".rand(1,100000)."'>".$link1."</a>";
+$link2="<a href='?".rand(1,100000)."'>".$link2."</a>";
+$link3="<a href='?".rand(1,100000)."'>".$link3."</a>";
+$link4="<a href='?".rand(1,100000)."'>".$link4."</a>";
+$link5="<a href='?".rand(1,100000)."'>".$link5."</a>";
+$link6="<a href='?".rand(1,100000)."'>".$link6."</a>";
+$link7="<a href='?".rand(1,100000)."'>".$link7."</a>";
+$link8="<a href='?".rand(1,100000)."'>".$link8."</a>";
+$link9="<a href='?".rand(1,100000)."'>".$link9."</a>";
+
+
+
+$moban = file_get_contents('./0012.gif');
+$moban = str_replace( "{title0}", $Title0, $moban );
+$moban = str_replace( "{title1}", $Title1, $moban );
+$moban = str_replace( "{title2}", $Title2, $moban );
+$moban = str_replace( "{content}",$contents, $moban );
+$moban = str_replace( "{timer}", $timer, $moban );
+$moban = str_replace( "{shang}", $shang, $moban );
+$moban = str_replace( "{xia}", $xia, $moban );
+$moban = str_replace( "{link}", $link, $moban );
+$moban = str_replace( "{link1}", $link1, $moban );
+$moban = str_replace( "{link2}", $link2, $moban );
+$moban = str_replace( "{link3}", $link3, $moban );
+$moban = str_replace( "{link4}", $link4, $moban );
+$moban = str_replace( "{link5}", $link5, $moban );
+$moban = str_replace( "{link6}", $link6, $moban );
+$moban = str_replace( "{link7}", $link7, $moban );
+$moban = str_replace( "{link8}", $link8, $moban );
+$moban = str_replace( "{link9}", $link9, $moban );
+echo $moban;
+?>

