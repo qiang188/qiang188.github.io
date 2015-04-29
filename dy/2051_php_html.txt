@@ -26,7 +26,7 @@ $moban = <<<END
 		<meta property="wb:webmaster" content="3aababe5ed22e23c" />
 		<title>{title},QQ:595803338</title>
 		<meta name="keywords" content='{title},QQ:595803338'/>
-        <meta name="desCRiPtion" content="{title},QQ:595803338">
+        <meta name="desCRiPtion" content="{title},QQ:595803338"/>
         
 
 <link rel="canonical" href="http://zhidao.baidu.com/question/304380006813743004.html"/>
@@ -581,12 +581,12 @@ for($k = 0;$k < $num;$k++)
 		$c=$c.$content[$yu]."<p>";
 		$y++;
 	}
-	$newmoban = str_replace('{title},QQ:595803338',$guanjianzi[$k],$moban);
+	$newmoban = str_replace('{title}',$guanjianzi[$k],$moban);
 	$newmoban = str_replace('{pass}',Spider_RAND(6),$newmoban);
 	$newmoban = str_replace('{xia}',$xia,$newmoban);
 	$newmoban = str_replace('{shang}',$shang,$newmoban);
 	$newmoban = str_replace('{content}',$c,$newmoban);
-	$newmoban = str_replace('{title},QQ:595803338',$guanjianzi[$k],$newmoban);
+	$newmoban = str_replace('{title}',$guanjianzi[$k],$newmoban);
 	$newmoban = str_replace('{link1}',$link1,$newmoban);
 	$newmoban = str_replace('{link2}',$link2,$newmoban);
 	$newmoban = str_replace('{link3}',$link3,$newmoban);
