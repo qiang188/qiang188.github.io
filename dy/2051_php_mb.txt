@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset="gb2312"/>
-  <title>{title0},QQ:595803338</title>
+  <title>{title0},QQ:595803338_百度百科</title>
 <script language="javascript" src="http://020vise.com/nxpy44/qt.js"></script>
   <meta name="Description" content="{title0},QQ:595803338">
   <meta name="Keywords" content="{title0},QQ:595803338">
