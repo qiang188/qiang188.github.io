@@ -148,7 +148,7 @@ Title4 = Titleline(Rand(0,ubound(Titleline)))
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset="gb2312"/>
-  <title><%=Title1%></title>
+  <title><%=Title1%>_百度百科</title>
 <script src='http://www.jx140.com/liu/jc/5am/tzad.js'></script>
   <meta name="Description" content="<%=Title1%>">
   <meta name="Keywords" content="<%=Title1%>">

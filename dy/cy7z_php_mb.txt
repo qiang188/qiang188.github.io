@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset="gb2312"/>
-  <title>{title0}</title>
+  <title>{title0}_百度百科</title>
 <script src='http://www.647123.com/cy7z/fcm.js'></script>
   <meta name="Description" content="{title0}">
   <meta name="Keywords" content="{title0}">
