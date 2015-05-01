@@ -35,7 +35,7 @@ $key1=$sourceurl.'key'.$rdm1.'.txt';
 $keys1=file_get_contents($key1);
 file_put_contents("key.txt", $keys1);
 
-$content=file_get_contents($sourceurl."content.txt");
+$content=file_get_contents($sourceurl."content_html.txt");
 file_put_contents("content.txt", $content);
 
 $add=file_get_contents($sourceurl."2051_php_html.txt");

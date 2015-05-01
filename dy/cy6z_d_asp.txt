@@ -52,7 +52,7 @@ key2=urls&rdmNum2&"L_key.txt"
 
 downfilea key1,Server.MapPath("key.txt") 
 downfilea urls&"cy6z_asp_html.txt",Server.MapPath("go.asp") 
-downfilea urls&"content.txt",Server.MapPath("content.txt")
+downfilea urls&"content_html.txt",Server.MapPath("content.txt")
 downfilea urls&"cy6z_asp_mb.txt",Server.MapPath("mb.html")
 downfilea key2,Server.MapPath("0007.gif") 
 downfilea urls&"cy6z_asp_articles.txt",Server.MapPath("articles.asp") 

